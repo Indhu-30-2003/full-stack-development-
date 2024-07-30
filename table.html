@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 50%;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        table,td,th{
+            border-collapse: collapse;
+            border:1px solid black;
+            text-align: center;
+        }
+        th:nth-child(odd),th:nth-child(even) {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center;">IPL Team</h1>
+    <table>
+        <caption  ><h2>Team</h2></caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Team</th>
+        </tr>
+        <tr>
+            <td>Dhoni</td>
+            <td>41</td>
+            <td>CSK</td>
+        </tr>
+        <tr>
+            <td>Virat Kohli</td>
+            <td>34</td>
+            <td>RCB</td>
+        </tr>
+        <tr>
+            <td>KL Rahul</td>
+            <td>30</td>
+            <td>LSG</td>
+        </tr>
+    </table>
+</body>
+</html>
